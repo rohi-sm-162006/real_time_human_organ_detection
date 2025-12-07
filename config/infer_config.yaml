@@ -1,0 +1,8 @@
+# Inference settings
+inference:
+  confidence_threshold: 0.5
+  mask_threshold: 0.5
+  overlay_colors:
+    liver: [255, 0, 0]
+    kidney: [0, 255, 0]
+    spleen: [0, 0, 255]

@@ -1,0 +1,10 @@
+# Training hyperparameters and dataset paths
+dataset:
+  train_split: data/splits/train.txt
+  val_split: data/splits/val.txt
+  test_split: data/splits/test.txt
+
+training:
+  epochs: 50
+  batch_size: 8
+  lr: 0.0001

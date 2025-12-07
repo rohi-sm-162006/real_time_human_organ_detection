@@ -1,0 +1,7 @@
+# Example yolov8 training config
+model: yolov8n-seg.pt
+data: config/data.yaml
+epochs: 50
+batch: 16
+
+

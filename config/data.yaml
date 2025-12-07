@@ -1,0 +1,4 @@
+path: data/yolov8
+train: images
+val: ../data/splits/val.txt
+names: ['organ']

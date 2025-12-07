@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+/.mypy_cache/
+
+# PyTorch / models
+*.pt
+*.pth
+weights/
+
+# Data
+data/raw/
+data/processed/
+data/annotations/
+data/yolov8/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data and models
+/data/
+/data_processed/
+*.pth
+*.pt
+models/
+weights/
+
+# Logs and caches
+.cache/
+.pytest_cache/
+*.log
+
+# Editor configs
+.vscode/
+.idea/
